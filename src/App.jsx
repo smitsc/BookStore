@@ -6,6 +6,7 @@ import About from './components/About';
 import News from './components/News';
 import Store from './components/Store';
 import ShowIt from './components/ShowIt';
+import Market from './components/Market';
 import Navbar from './components/CustomNavbar';
 
 class App extends Component {
@@ -18,7 +19,8 @@ class App extends Component {
           <Route path="/about" component={About} />
           <Route path="/news" component={News} />
           <Route path="/store" component={Store} />
-          <Route path="/show" component={ShowIt} />          
+          <Route path="/show" component={ShowIt} />
+          <Route path="/market" component={Market} />
         </div>
       </Router>
     );
